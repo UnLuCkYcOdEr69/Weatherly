@@ -1,0 +1,5 @@
+{
+  "name": "Hyperlocal Weather + Lifestyle Planner",
+  "description": "A weather-driven lifestyle assistant for urban India, providing actionable insights on laundry, travel, and health.",
+  "requestFramePermissions": ["geolocation"]
+}

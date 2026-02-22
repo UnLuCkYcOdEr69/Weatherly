@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-slate-900;
+    font-feature-settings: "cv02", "cv03", "cv04", "ss01";
+  }
+}
+
+.glass-card {
+  @apply bg-white/10 backdrop-blur-2xl border border-white/20 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)];
+}
+
+.ios-shadow {
+  @apply shadow-[0_2px_10px_rgba(0,0,0,0.05)];
+}
